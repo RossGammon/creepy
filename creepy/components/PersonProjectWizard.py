@@ -3,7 +3,6 @@
 
 from PyQt5.QtGui import QWizard, QMessageBox, QWidget, QScrollArea, QLineEdit, QLabel, QVBoxLayout, QCheckBox, \
     QGridLayout
-from PyQt5.QtCore import QString
 from models.PluginConfigurationListModel import PluginConfigurationListModel
 from models.ProjectWizardPossibleTargetsTable import ProjectWizardPossibleTargetsTable
 from models.InputPlugin import InputPlugin
@@ -11,10 +10,7 @@ from yapsy.PluginManager import PluginManagerSingleton
 from ui.PersonProjectWizard import Ui_personProjectWizard
 from utilities import GeneralUtilities
 
-try:
-    _fromUtf8 = QString.fromUtf8
-except AttributeError:
-    _fromUtf8 = lambda s: s
+_fromUtf8 = lambda s: s
 
 
 class PersonProjectWizard(QWizard):
