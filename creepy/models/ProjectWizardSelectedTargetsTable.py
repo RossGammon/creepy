@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtCore import QVariant, QAbstractTableModel, Qt
-from PyQt4.Qt import QDataStream, QIODevice, QModelIndex
+from PyQt5.QtCore import QVariant, QAbstractTableModel, Qt
+from PyQt5.Qt import QDataStream, QIODevice, QModelIndex
 
 
 class ProjectWizardSelectedTargetsTable(QAbstractTableModel):

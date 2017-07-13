@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtGui import QDialog
+from PyQt5.QtGui import QDialog
 from ui.FilterLocationsDateDialog import Ui_FilterLocationsDateDialog
 
 

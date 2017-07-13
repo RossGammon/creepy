@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtGui import QDialog, QLabel, QLineEdit, QScrollArea, QCheckBox
+from PyQt5.QtGui import QDialog, QLabel, QLineEdit, QScrollArea, QCheckBox
 from yapsy.PluginManager import PluginManagerSingleton
 from models.InputPlugin import InputPlugin
 from ui.PluginsConfig import Ui_PluginsConfigurationDialog

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtGui import QDialog
-from PyQt4.QtCore  import Qt
+from PyQt5.QtGui import QDialog
+from PyQt5.QtCore  import Qt
 from ui.PluginRatesCheckDialog import Ui_checkPluginRatesDialog
 
 

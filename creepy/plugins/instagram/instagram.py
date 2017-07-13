@@ -6,7 +6,7 @@ import urllib
 from urlparse import urlparse, parse_qs
 
 import pytz
-from PyQt4.QtGui import QLabel, QLineEdit, QWizard, QWizardPage, QVBoxLayout, QMessageBox, QPushButton
+from PyQt5.QtGui import QLabel, QLineEdit, QWizard, QWizardPage, QVBoxLayout, QMessageBox, QPushButton
 from instagram.client import InstagramAPI
 from models.InputPlugin import InputPlugin
 from utilities import GeneralUtilities, QtHandler

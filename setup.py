@@ -5,7 +5,7 @@ sys.argv.append('py2exe')
 
 includes = ["sip",
             "distutils",
-            "PyQt4.QtNetwork",
+            "PyQt5.QtNetwork",
             "tweepy",
             "flickrapi",
             "instagram",

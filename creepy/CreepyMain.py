@@ -12,12 +12,12 @@ import urllib2
 import webbrowser
 import pytz
 from distutils.version import StrictVersion
-from PyQt4.QtCore import QString, QThread, SIGNAL, QUrl, QDateTime, QDate, QRect, Qt
-from PyQt4.QtGui import QMainWindow, QApplication, QMessageBox, QFileDialog, QWidget, QScrollArea, QVBoxLayout, QIcon, \
+from PyQt5.QtCore import QString, QThread, SIGNAL, QUrl, QDateTime, QDate, QRect, Qt
+from PyQt5.QtGui import QMainWindow, QApplication, QMessageBox, QFileDialog, QWidget, QScrollArea, QVBoxLayout, QIcon, \
     QTableWidgetItem, QAbstractItemView
-from PyQt4.QtGui import QHBoxLayout, QLabel, QLineEdit, QCheckBox, QPushButton, QStackedWidget, QGridLayout, QMenu, \
+from PyQt5.QtGui import QHBoxLayout, QLabel, QLineEdit, QCheckBox, QPushButton, QStackedWidget, QGridLayout, QMenu, \
     QPixmap
-from PyQt4.QtWebKit import QWebPage, QWebSettings
+from PyQt5.QtWebKit import QWebPage, QWebSettings
 from dominate import document
 from ui.CreepyUI import Ui_CreepyMainWindow
 from yapsy.PluginManager import PluginManagerSingleton

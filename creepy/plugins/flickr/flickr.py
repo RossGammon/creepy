@@ -7,9 +7,9 @@ import datetime
 import logging
 import re
 import os
-from PyQt4.QtGui import QWizard, QWizardPage, QLabel, QLineEdit, QVBoxLayout, QHBoxLayout
-from PyQt4.QtCore import QUrl
-from PyQt4.QtWebKit import QWebView
+from PyQt5.QtGui import QWizard, QWizardPage, QLabel, QLineEdit, QVBoxLayout, QHBoxLayout
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWebKit import QWebView
 from flickrapi.exceptions import FlickrError
 from utilities import GeneralUtilities, QtHandler
 # set up logging

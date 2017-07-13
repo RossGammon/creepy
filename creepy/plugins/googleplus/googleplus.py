@@ -8,9 +8,9 @@ import os
 import urllib
 import httplib2
 import dateutil.parser
-from PyQt4.QtGui import QWizard, QWizardPage, QLabel, QLineEdit, QVBoxLayout, QHBoxLayout, QMessageBox
-from PyQt4.QtCore import QUrl
-from PyQt4.QtWebKit import QWebView
+from PyQt5.QtGui import QWizard, QWizardPage, QLabel, QLineEdit, QVBoxLayout, QHBoxLayout, QMessageBox
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWebKit import QWebView
 from utilities import GeneralUtilities, QtHandler
 # set up logging
 logger = logging.getLogger(__name__)

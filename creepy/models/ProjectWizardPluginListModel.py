@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtCore import QVariant, QAbstractListModel, Qt
-from PyQt4.Qt import QPixmap, QFileSystemModel, QIcon
+from PyQt5.QtCore import QVariant, QAbstractListModel, Qt
+from PyQt5.Qt import QPixmap, QFileSystemModel, QIcon
 from utilities import GeneralUtilities
 import os
 

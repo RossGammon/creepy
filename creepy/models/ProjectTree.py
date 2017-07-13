@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from PyQt4.QtCore import QAbstractItemModel
-from PyQt4.QtCore import QModelIndex
-from PyQt4.QtCore import Qt
-from PyQt4.QtGui import QIcon,QPixmap
-from PyQt4.QtCore import QVariant
+from PyQt5.QtCore import QAbstractItemModel
+from PyQt5.QtCore import QModelIndex
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon,QPixmap
+from PyQt5.QtCore import QVariant
 
 
 class ProjectTreeModel(QAbstractItemModel):
